@@ -1,5 +1,5 @@
-import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 const StyledNav = styled.div`
   position: fixed;
@@ -33,11 +33,7 @@ function Navbar() {
         <NavLink to="/home">
           <img src=".././images/Explore.png" alt="explore" />
         </NavLink>
-<<<<<<< HEAD
-        <div>
-=======
         <NavLink>
->>>>>>> e57499b5b8a658f5af3e61d6e4ef56f73457d394
           <img src=".././images/Profile.png" alt="profile" />
         </NavLink>
       </div>

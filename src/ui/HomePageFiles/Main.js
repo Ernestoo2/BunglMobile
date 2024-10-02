@@ -1,8 +1,13 @@
 import CategoryList from "../../features/CategoryList";
 import List from "./List";
-import ListItem from "./ListItem";
-import Offers from "../Offers";
-import SubHeader from "../SubHeader";
+import ListBoys from "./ListItemsApparel/ListBoys";
+import ListGirls from "./ListItemsApparel/ListGirls";
+import ListMen from "./ListItemsApparel/ListMen";
+import ListWomen from "./ListItemsApparel/ListWomen";
+import Offers from "./Offers";
+import SubHeader from "./SubHeader";
+
+// import ListItem from "./ListItems";
 
 function Main() {
   return (
@@ -16,10 +21,10 @@ function Main() {
         txtColor="var(--primary-color)"
       />
       <List>
-        <ListItem text="men" />
-        <ListItem text="women" />
-        <ListItem text="girls" />
-        <ListItem text="boys" />
+        <ListMen text="men" />
+        <ListWomen text="women" />
+        <ListGirls text="girls" />
+        <ListBoys text="boys" />
       </List>
       <SubHeader
         text="home"
@@ -28,10 +33,10 @@ function Main() {
         txtColor="var(--white)"
       />
       <List>
-        <ListItem text="men" />
-        <ListItem text="women" />
-        <ListItem text="girls" />
-        <ListItem text="boys" />
+        <ListMen text="men" />
+        <ListWomen text="women" />
+        <ListGirls text="girls" />
+        <ListBoys text="boys" />
       </List>
     </>
   );
